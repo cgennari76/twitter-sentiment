@@ -1,0 +1,13 @@
+setup an app as a twitter developer, you should have 5x keys: 2x consumer, a bearer token, and 2x auth keys.
+
+from the bash console:
+
+export TWITTER_BEARER_TOKEN='' (add the bearer token with AAA between quotes)
+
+mkdir nodesentiment
+cd nodesentiment
+
+ (enter all defaults)
+npm install node-fetch
+
+nano package.json (add "type": "module", after descriptions)
