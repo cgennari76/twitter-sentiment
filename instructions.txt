@@ -7,7 +7,7 @@ export TWITTER_BEARER_TOKEN='' (add the bearer token with AAA between quotes)
 mkdir nodesentiment
 cd nodesentiment
 
- (enter all defaults)
-npm install node-fetch
+npm init
+npm install node-fetch (enter all defaults)
 
 nano package.json (add "type": "module", after descriptions)
